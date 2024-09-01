@@ -10,7 +10,7 @@ function Projects() {
   <ul className='ml-16 list-disc'>
     <li className=''>Improved Employee/Staff performance since activities are automated</li>
     <li>Uninterupted flows of information across  thanks to the Notice Board on D-SCHOOL </li>
-    <li>Unprejudiced student grading system leading to fair academic competition among students</li>
+    <li>Unprejudiced student grading system maintaining a fair academic competition among students</li>
     <li>Seamless  Expenditure control mechanism due to the Pay Tracker module which ships with D-SCHOOL </li>
     <li>A safe data storage mechanism  </li>
     <li>Provides upto-date financial health of the organisation.</li>   

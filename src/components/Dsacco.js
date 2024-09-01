@@ -4,21 +4,20 @@ function Dsacco() {
   return (
 <>
 <section className='w-full m-auto px-11 text-[1.2em]'>
-  <h1 className=' font-poppins font-extrabold text-black text-center text-[2em] '>D-SCHOOL</h1>
-  <p><span className='font-bold '> D-school </span> is a web-based school management system designed to replace manual labour-intensive activities perfomed in a school </p>
-  <h2 className='w-full  pt-4 font-bold '>Why you  need D-SCHOOL</h2>
+  <h1 className=' font-poppins font-extrabold text-black text-center text-[2em] '>D-SACCO</h1>
+  <p><span className='font-bold '> D-SCACCO </span> is an API solution for Micro-finance and saving co-operatives </p>
+  <h2 className='w-full  pt-4 font-bold '>Designed with a User-friendly interface, D-SCACCO serves the following:-</h2>
   <ul className='ml-16 list-disc'>
-    <li className=''>Improved Employee/Staff performance since activities are automated</li>
-    <li>Uninterupted flows of information across  thanks to the Notice Board on D-SCHOOL </li>
-    <li>Unprejudiced student grading system leading to fair academic competition among students</li>
-    <li>Seamless  Expenditure control mechanism due to the Pay Tracker module which ships with D-SCHOOL </li>
+    <li className=''>Unlimited access to micro-finance activities fot both managers, directors and members</li>
+    <li>Uninterupted flows of information across  thanks to the Notice Board on D-SCACCO </li>
+    <li>Automatic balance calculation on withdraws and Deposits</li>
+    <li>An easy-to-use but user standard interface   </li>
     <li>A safe data storage mechanism  </li>
     <li>Provides upto-date financial health of the organisation.</li>   
-
   </ul>
         
-<h3 className='ml-8 mt-2 underline text-stone-800 font-semibold'>Module Shipped with D-SCHOOL</h3>
-<p className='font-bold mt-4'>1. STUDENTS MODULE</p>
+<h3 className='ml-8 mt-2 underline text-stone-800 font-semibold'>Module Shipped with D-SCACCO</h3>
+<p className='font-bold mt-4'>1. ACCOUNTS MODULE</p>
 <ul className='ml-16 list-disc'>
 <li className='list-none'>This Module has the following sub-modules</li>
 <li>Student Registration</li>
