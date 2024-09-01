@@ -97,7 +97,7 @@ function Cubes() {
       <div ref={domRef}></div>
       <div className="bg-red-800 text-white w-full absolute top-0 left-0" > 
         
-        <Link to='/projects'>Projects</Link>
+        <Link to='/projects' className="m-10">Projects</Link>
         <Link to='/about'>About</Link>
 
 

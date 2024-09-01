@@ -3,17 +3,24 @@ import React from 'react'
 function Projects() {
   return (
 <>
-<div>
+<section className='w-full m-auto'>
+  <h1 className='font-bold '>D-SCHOOL</h1>
+  <p><span className='font-bold '> D-school </span> is a web-based school management system designed to replace manual labour-intensive activities perfomed in a school </p>
+  <h2>Why your school needs D-SCHOOL</h2>
+  <ul>
+    <li>Improved Employee/Staff performance since activities are automated</li>
+    <li>Uninterupted flows of information across all parties thanks to the Notice Board on D-SCHOOL </li>
+    <li>Unprejudiced student grading system leading to fair academic competition among students</li>
+    <li>Seamless  Expenditure control mechanism due to the Pay Tracker module which ships with D-SCHOOL </li>
+    <li>A safe data storage mechanism  </li>
+    <li>Provides upto-date financial health of the organisation.</li>   
+
+  </ul>
         
 
-        <p className='font-poppins mt-4 mb-2 text-[0.7em]  sm:text-[0.9em] sm:w-full'>
 
-Amber Loops’s data and research teams are embedded in the local context.
- We believe that delivering impactful research requires building a local team, 
- understanding the context, establishing close working relationships on the ground.
- </p>
 
-    </div></>
+    </section></>
   )
 }
 
