@@ -17,10 +17,10 @@ function Projects() {
 
   </ul>
         
-<h3>Module Shipped with D-SCHOOL</h3>
-<p>STUDENTS MODULE</p>
-<ul>
-<li>This Module has the following sub-modules</li>
+<h3 className='ml-8 mt-2 underline text-stone-800 font-semibold'>Module Shipped with D-SCHOOL</h3>
+<p className='font-bold mt-4'>1. STUDENTS MODULE</p>
+<ul className='ml-16 list-disc'>
+<li className='list-none'>This Module has the following sub-modules</li>
 <li>Student Registration</li>
 <li>School Fees payment and reciept issuing</li>
 <li>Record for special payments by students like Medical Fees, School Requirements</li>
@@ -28,27 +28,25 @@ function Projects() {
 <li>Semester report generation for students</li>
 <li>Captures all Student data like  information about Guardian</li>
 </ul>
-<p>Staff Module</p>
-<ul>
+<p className='font-bold mt-4'>2. STAFF MODULE</p>
+<ul className='ml-16 list-disc'>
+
 <li>The staff module incoperates the following</li>
 <li>Staff Registration and Onboarding  </li>
 <li>Payroll and arrears calculation</li>
 </ul>
-<p>Library MODULE</p>
-<ul>
+<p className='font-bold mt-4'>3. LIBRARY MODULE</p>
+<ul className='ml-16 list-disc'>
 <li>Digital Library where books are stored and can be accessed</li>
 <li>Tracker for Library assets usage </li>
 <li>Captures all details about a library asset</li>
 </ul>
-<p>ASSETS MODULE</p>
-<ul>
+<p className='font-bold mt-4'>4. ASSETS MODULE</p>
+<ul className='ml-16 list-disc'>
 <li>Asset Registration</li>
-<li>Asset tracker including :- borrowing, depreciation, value appreciation and  information about supplier</li>
- 
+<li>Asset tracker including :- borrowing, depreciation, value appreciation and  information about supplier</li> 
 </ul>
-<p>Income and Expenditure Tracker</p>
-
-
+<p className='font-bold mt-4 uppercase'>5. Income and Expenditure Tracker</p>
     </section></>
   )
 }
