@@ -52,7 +52,6 @@ function Cubes() {
     function createPlane(width, height, map, position, rotation) {
       const geometry = new QQ.PlaneGeometry(width, height);
       let material;
-      console.log(typeof map);
       if (typeof map == typeof {}) {
         material = new QQ.MeshBasicMaterial({ map: map, side: QQ.DoubleSide });
       } else {
