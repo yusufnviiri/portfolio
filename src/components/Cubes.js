@@ -20,7 +20,7 @@ function Cubes() {
 
     const scene = new QQ.Scene();
     const renderer = new QQ.WebGLRenderer();
-    renderer.setSize(window.innerWidth, window.innerHeight*0.9);
+    renderer.setSize(window.innerWidth, window.innerHeight*0.98);
     window.addEventListener("resize", function () {
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
@@ -28,7 +28,7 @@ function Cubes() {
     });
 
     const camera = new QQ.PerspectiveCamera(
-      90,
+      75,
       window.innerWidth / window.innerHeight,
       0.1,
       1000
@@ -95,18 +95,7 @@ function Cubes() {
   return (
     <>
       <div ref={domRef}></div>
-      <div className="bg-red-800 text-white w-full absolute top-0 left-0" > 
-        
-        <Link to='/projects' className="m-10">Projects</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/dsacco' className="m-10">Dsacco</Link>
-
-
-
-
-
-
-      </div>
+    
 
     </>
   );
