@@ -8,6 +8,8 @@ function Menu(){
         
         <Link to='/projects' className="m-10">Projects</Link>
         <Link to='/about'>About</Link>
+        <Link to='/contact' className="m-10">Contact</Link>
+
         <Link to='/dsacco' className="m-10">Dsacco</Link>
 
 

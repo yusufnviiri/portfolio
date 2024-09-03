@@ -5,6 +5,7 @@ import About from './components/About';
 import Dsacco from './components/Dsacco';
 import { Routes,Route } from 'react-router';
 import Menu from './components/Menu'
+import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path="/" element={<Cubes/>}/>
-      <Route path="/dsacco" element={<Dsacco/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+            <Route path="/dsacco" element={<Dsacco/>}/>
 
 
 
