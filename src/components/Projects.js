@@ -6,8 +6,8 @@ function Projects() {
   return (
 <>
 <h1 className='lg:text-[4em] text-[2em] pt-4 text-center lg:my-14 my-5'>PROJECTS</h1>
-<div className="text-[1.2em]   lg:h-[80vh] flex flex-col-reverse lg:flex-row  sm:w-2/3 lg:w-[55em] xl:w-[65em] m-auto  gap-16 px-10 lg:rounded-[4em] rounded-[1em] bg-white  text-stone-900 font-poppins lg:border-[30px] border-[15px] border-emerald-900">
-  <img src={astronount}  alt='dsacco' className='lg:w-1/2 lg:h-[37em]  lg:m-auto mb-4 rounded' />
+<div className="text-[1.2em]   lg:h-[80vh] flex flex-col-reverse lg:flex-row  sm:w-[90%] lg:w-[55em] xl:w-[65em] m-auto  gap-16 px-10 lg:rounded-[4em] rounded-[1em] bg-white  text-stone-900 font-poppins lg:border-[30px] border-[15px] border-emerald-900">
+  <img src={astronount}  alt='dsacco' className='w-full h-[39em] lg:w-1/2 lg:h-[37em]   lg:m-auto mb-4 rounded' />
   <div className='lg:w-1/2 '>
     <h1 className='font-bold text-center mt-10 mb-3 text-[2em]'>D-SACCO</h1>
 
