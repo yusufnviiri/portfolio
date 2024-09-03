@@ -23,12 +23,12 @@ function Contact() {
     <p className='my-3 '>  <span className='font-bold'>Availability : </span> Open to Freelance opportunities, collaborations and full-time work 
     </p>
 
-    <form>
+    <form className=' flex flex-col w-[60%] m-auto '>
     <label for="email">Email</label>
-<input type="email" id="email" name="email" required placeholder=" Email" />
+<input type="email" id="email" name="email" className='text-[1.4em] bg-slate-100 my-3 ' required placeholder="Email" />
 
 <label for="message">Message</label>
-<textarea id="message" name="message" rows="6" required placeholder=" Message" ></textarea>
+<textarea id="message" name="message" rows="6" required placeholder=" Message" className='text-[1.4em] bg-slate-100 my-3 '  ></textarea>
 
 <button type="submit">Send Message</button>
 
