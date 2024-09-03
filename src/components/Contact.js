@@ -18,19 +18,20 @@ function Contact() {
     <Link to="/" className='bg-green-900 hover:bg-yellow-300 hover:text-slate-800 mr-5 capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>Email</Link>
     <Link to="/" className='bg-green-900 hover:bg-yellow-300 hover:text-slate-800 mr-5 capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>WhatsApp</Link>
     </div>
+    <p className='my-3 '>  <span className='font-bold'>Mobile: </span> +256777471583
+    </p> <p className='my-3 '>  <span className='font-bold'>Email: </span> yusufnviiri@gmail.com
+    </p>
     <p className='my-3 '>  <span className='font-bold'>Residence : </span> Uganda
     </p>
     <p className='my-3 '>  <span className='font-bold'>Availability : </span> Open to Freelance opportunities, collaborations and full-time work 
     </p>
 
     <form className=' flex flex-col w-[60%] m-auto '>
-    <label for="email">Email</label>
-<input type="email" id="email" name="email" className='text-[1.4em] bg-slate-100 my-3 ' required placeholder="Email" />
+<input type="email" id="email" name="email" className='text-[1.4em] bg-slate-100 my-3 text-center' required placeholder="Email" />
 
-<label for="message">Message</label>
-<textarea id="message" name="message" rows="6" required placeholder=" Message" className='text-[1.4em] bg-slate-100 my-3 '  ></textarea>
+<textarea id="message" name="message" rows="6" required placeholder=" Message" className='text-center text-[1.4em] bg-slate-100 my-3 '  ></textarea>
 
-<button type="submit">Send Message</button>
+<button className='bg-green-900 hover:bg-yellow-300 hover:text-slate-800 text-white rounded-[8px] ' type="submit">Send Message</button>
 
     </form>
         </div>
