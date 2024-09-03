@@ -18,6 +18,21 @@ function Contact() {
     <Link to="/" className='bg-green-900 hover:bg-yellow-300 hover:text-slate-800 mr-5 capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>Email</Link>
     <Link to="/" className='bg-green-900 hover:bg-yellow-300 hover:text-slate-800 mr-5 capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>WhatsApp</Link>
     </div>
+    <p className='my-3 '>  <span className='font-bold'>Residence : </span> Uganda
+    </p>
+    <p className='my-3 '>  <span className='font-bold'>Availability : </span> Open to Freelance opportunities, collaborations and full-time work 
+    </p>
+
+    <form>
+    <label for="email">Email</label>
+<input type="email" id="email" name="email" required placeholder=" Email" />
+
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" required placeholder=" Message" ></textarea>
+
+<button type="submit">Send Message</button>
+
+    </form>
         </div>
         </>
   )
