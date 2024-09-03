@@ -6,14 +6,17 @@ function Projects() {
   return (
 <>
 <h1 className='lg:text-[4em] text-[2em] pt-4 text-center lg:my-14 my-5'>PROJECTS</h1>
-<div className="text-[1.2em]   lg:h-[80vh] flex flex-col-reverse lg:flex-row  sm:w-[90%] lg:w-[55em] xl:w-[65em] m-auto  gap-16 px-10 lg:rounded-[4em] rounded-[1em] bg-white  text-stone-900 font-poppins lg:border-[30px] border-[15px] border-emerald-900">
-  <img src={astronount}  alt='dsacco' className='w-full h-[39em] lg:w-1/2 lg:h-[37em]   lg:m-auto mb-4 rounded' />
-  <div className='lg:w-1/2 '>
-    <h1 className='font-bold text-center mt-10 mb-3 text-[2em]'>D-SACCO</h1>
+<div className="text-[1.2em]   lg:h-[75vh] flex flex-col-reverse lg:flex-row  sm:w-[90%] lg:w-[55em] xl:w-[65em] m-auto  gap-16 px-10 lg:rounded-[4em] rounded-[1em] bg-white  text-stone-900 font-poppins lg:border-[30px] border-[15px] border-emerald-900">
+  <div className='lg:w-1/2 lg:flex flex-col justify-around lg:pl-16'>
+  <h1 className='font-bold text-left mt-10 mb-3 lg:text-[3em]'><span className='underline underline-offset-[0.5em]'>D-SAC</span>CO</h1>
+  <img src={astronount}  alt='dsacco' className='lg:w-[90%] h-[60%]  rounded' />
+  </div>
+
+  <div className='lg:w-1/2 lg:flex flex-col  lg:pt-20 pb-34'>
 
     <p className='my-3'>Micro-finance co-operatives are a major building block to a country's economy. They serve to extend financial services to low income individuals.  
      <span className='block'>Such services include :- Loans, Savings, Profit Sharing, Financial literacy .....etc.</span></p>
-    <p className='my-3'> D-SCACCO   is an API solution for Micro-finance and saving co-operatives. The solution offers intuitive functionalities suited for a modern credit and savings association </p> 
+    <p className='my-3'> D-sacco    is an API solution for Micro-finance and saving co-operatives. The solution offers intuitive functionalities suited for a modern credit and savings association </p> 
     <p className='my-3'>D-sacco is cleverly tailored to solve all challenges encountered in Micro-Finance institutions. <br/> Designed with well tested functionalities like <span className='font-bold'>Accounts module, </span>  <span className='font-bold'>Saving module, </span><span className='font-bold'>Shares module </span><span className='font-bold'>Withdraw module  </span> and <span className='font-bold'>Deposits module  </span>    </p>
     
 
