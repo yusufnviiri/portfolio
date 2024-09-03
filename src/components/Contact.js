@@ -31,7 +31,7 @@ function Contact() {
 
 <textarea id="message" name="message" rows="6" required placeholder=" Message" className='text-center text-[1.4em] bg-slate-100 my-3 '  ></textarea>
 
-<button className='bg-green-900 hover:bg-yellow-300 hover:text-slate-800 text-white rounded-[8px] ' type="submit">Send Message</button>
+<button className=' p-2 bg-green-900 hover:bg-yellow-300 hover:text-slate-800 text-white rounded-[8px] ' type="submit">Send Message</button>
 
     </form>
         </div>
