@@ -5,7 +5,7 @@ function About() {
     <>
     <h1 className='lg:text-[4em] text-[2em] pt-4 text-center lg:my-14 my-5'>ABOUT ME</h1>
 
-    <div className="text-[1.2em] pt-11   lg:h-[80vh] flex-col  sm:w-[90%] lg:w-[55em] xl:w-[65em] m-auto  gap-16 px-10 lg:rounded-[4em] rounded-[1em] bg-white  text-stone-900 font-poppins lg:border-[30px] border-[15px] border-emerald-900">
+    <div className="text-[1.2em] py-11    flex-col  sm:w-[90%] lg:w-[55em] xl:w-[65em] m-auto  gap-16 px-10 lg:rounded-[4em] rounded-[1em] bg-white  text-stone-900 font-poppins lg:border-[30px] border-[15px] border-emerald-900">
     <p className='my-3'>
     Hi, I'm [Your Name], a passionate software developer with a love for creating innovative and efficient solutions. With 4 years of experience in the industry, I specialize in developing robust web applications and APIs using modern technologies like ASP.NET Core, Docker, and JavaScript frameworks (REACT).
      </p>
