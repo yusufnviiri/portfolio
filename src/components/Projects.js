@@ -22,7 +22,7 @@ function Projects() {
 
     <div className='flex flex-row   my-10 lg:mt-16  '>
     <Link to="/dsacco" className='bg-blue-900 mr-5 capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>Details</Link>
-    <Link to="/" className='bg-blue-900 mr-5 capitalize  rounded text-[0.9em] text-white font-bold px-3 py-2 text-center'> Code</Link> <Link to="/" className='bg-blue-900 capitalize  px-3 py-2 text-center rounded  text-[0.9em] mr-5 text-white font-bold'>Video</Link>
+    <Link to="https://github.com/yusufnviiri/DsaccoAPP.git" className='bg-blue-900 mr-5 capitalize  rounded text-[0.9em] text-white font-bold px-3 py-2 text-center'> Code</Link> <Link to="/" className='bg-blue-900 capitalize  px-3 py-2 text-center rounded  text-[0.9em] mr-5 text-white font-bold'>Video</Link>
     <Link to="/" className='bg-blue-900  capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>Live Demo</Link>
     </div>
     <p  className='bg-green-950 p-3 mt-4 text-yellow-500  text-[0.7em] w-2/3 sm:w-full xl:w-2/3 text-center m-autotext-center'><span className='block uppercase font-bold text-yellow-300 text-[1.19em] '>languanges and frameworks </span> C#, MySQL and Entity Framework Core </p>
