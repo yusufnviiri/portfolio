@@ -21,7 +21,7 @@ function Projects() {
     
 
     <div className='flex flex-row   my-10 lg:mt-16  '>
-    <Link to="/" className='bg-blue-900 mr-5 capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>Details</Link>
+    <Link to="/dsacco" className='bg-blue-900 mr-5 capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>Details</Link>
     <Link to="/" className='bg-blue-900 mr-5 capitalize  rounded text-[0.9em] text-white font-bold px-3 py-2 text-center'> Code</Link> <Link to="/" className='bg-blue-900 capitalize  px-3 py-2 text-center rounded  text-[0.9em] mr-5 text-white font-bold'>Video</Link>
     <Link to="/" className='bg-blue-900  capitalize  rounded px-3 py-2 text-center text-[0.9em] text-white font-bold'>Live Demo</Link>
     </div>

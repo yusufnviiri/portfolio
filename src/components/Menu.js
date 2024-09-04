@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
  
 function Menu(){
     return (
-        <>  <div className="bg-red-800 text-white w-full absolute top-0 left-0" > 
-        
-        <Link to='/projects' className="m-10">Projects</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/contact' className="m-10">Contact</Link>
+        <>  <div className="bg-red-800 text-white w-full absolute top-0 left-0 py-2" > 
+                <Link to='/' className="p-5 text-xl font-sans font-bold ">HOME</Link>
 
-        <Link to='/dsacco' className="m-10">Dsacco</Link>
+        
+        <Link to='/projects' className="p-5 text-xl font-sans font-bold ">PROJECTS</Link>
+        <Link to='/about ' className="p-5 text-xl font-sans font-bold">ABOUT</Link>
+        <Link to='/contact' className="p-5 text-xl font-sans font-bold">CONTACT</Link>
+
 
 
 

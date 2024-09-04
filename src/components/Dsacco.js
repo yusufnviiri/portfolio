@@ -3,9 +3,8 @@ import React from 'react'
 function Dsacco() {
   return (
 <>
-<section className='w-full m-auto px-11 text-[1.2em]'>
-  <h1 className=' font-poppins font-extrabold text-black text-left ml-48 text-[2em] '>D-SACCO</h1>
-  <p><span className='font-bold '> D-SCACCO </span> is an API solution for Micro-finance and saving co-operatives </p>
+<div className="text-[1.2em]    sm:w-[90%] lg:w-[55em] xl:w-[65em] m-auto  gap-16 px-10 lg:py-20 py-8   rounded-[1em] bg-white  text-stone-900 font-poppins lg:border-[2px] border-[15px] border-emerald-900"> 
+<h1 className='font-bold text-center mb-7 lg:text-[3em] text-[2em]'><span className='underline underline-offset-[0.3em]'>D-SAC</span>CO</h1>  <p><span className='font-bold '> D-SCACCO </span> is an API solution for Micro-finance and saving co-operatives </p>
   <h2 className='w-full  pt-4 font-bold '>Designed with a User-friendly interface, D-SCACCO serves the following:-</h2>
   <ul className='ml-16 list-disc'>
     <li className=''>Unlimited access to micro-finance activities fot both managers, directors and members</li>
@@ -46,7 +45,7 @@ function Dsacco() {
 <li>Seamless  <span className='font-bold '>Purchase  </span> of shares of a Micro-finance </li>
 <li>Ability to <span className='font-bold '> Sell </span>   shares owned by member  in a Micro-finance </li>
 </ul>
-    </section></>  )
+    </div></>  )
 }
 
 export default Dsacco
