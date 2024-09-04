@@ -3,8 +3,8 @@ import React from 'react'
 function Dsacco() {
   return (
 <>
-<section className='w-full h-full bg-white'>
-<div className="text-[1.2em] py-20    sm:w-[90%] lg:w-[55em]  m-auto  px-10  lg:px-20 lg:py-20    rounded-[1em]   text-stone-900 font-poppins lg:border-[2px] border-[15px] border-emerald-900"> 
+<section className='w-full h-full bg-white py-20'>
+<div className="text-[1.2em]       sm:w-[90%] lg:w-[55em]  m-auto  px-10  lg:px-20 py-20    rounded-[1em]   text-stone-900 font-poppins lg:border-[2px] border-[15px] border-emerald-900"> 
 <h1 className='font-bold text-center mb-7 lg:text-[3em] text-[2em]'><span className='underline underline-offset-[0.3em]'>D-SAC</span>CO</h1>  <p><span className='font-bold '> D-SCACCO </span> is an API solution for Micro-finance and saving co-operatives </p>
   <h2 className='w-full  pt-4 font-bold '>Designed with a User-friendly interface, D-SCACCO serves the following:-</h2>
   <ul className='ml-16 list-disc'>
