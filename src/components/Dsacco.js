@@ -3,7 +3,8 @@ import React from 'react'
 function Dsacco() {
   return (
 <>
-<div className="text-[1.2em]    sm:w-[90%] lg:w-[55em] xl:w-[65em] m-auto  gap-16 px-10 lg:py-20 py-8   rounded-[1em] bg-white  text-stone-900 font-poppins lg:border-[2px] border-[15px] border-emerald-900"> 
+<section className='w-full h-full bg-white'>
+<div className="text-[1.2em] py-20    sm:w-[90%] lg:w-[55em]  m-auto  px-10  lg:px-20 lg:py-20    rounded-[1em]   text-stone-900 font-poppins lg:border-[2px] border-[15px] border-emerald-900"> 
 <h1 className='font-bold text-center mb-7 lg:text-[3em] text-[2em]'><span className='underline underline-offset-[0.3em]'>D-SAC</span>CO</h1>  <p><span className='font-bold '> D-SCACCO </span> is an API solution for Micro-finance and saving co-operatives </p>
   <h2 className='w-full  pt-4 font-bold '>Designed with a User-friendly interface, D-SCACCO serves the following:-</h2>
   <ul className='ml-16 list-disc'>
@@ -15,7 +16,7 @@ function Dsacco() {
     <li>Provides upto-date financial health of the organisation.</li>   
   </ul>
         
-<h3 className='ml-8 mt-2 underline text-stone-800 font-semibold'>Module Shipped with D-SCACCO</h3>
+<h3 className='ml-8 mt-2 underline text-stone-800 font-semibold'>Modules Shipped with D-SCACCO</h3>
 <p className='font-bold mt-4'>1. ACCOUNTS MODULE</p>
 <ul className='ml-16 list-disc'>
 <li>Member can  <span className='font-bold '> open account </span> under Savings, Fixed, Business and many other categories </li>
@@ -45,7 +46,7 @@ function Dsacco() {
 <li>Seamless  <span className='font-bold '>Purchase  </span> of shares of a Micro-finance </li>
 <li>Ability to <span className='font-bold '> Sell </span>   shares owned by member  in a Micro-finance </li>
 </ul>
-    </div></>  )
+    </div></section></>  )
 }
 
 export default Dsacco
