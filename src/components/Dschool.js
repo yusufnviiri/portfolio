@@ -4,8 +4,9 @@ import React from  "react"
 export default function Dschool(){
     return(
         <>
-        <section className='w-full m-auto px-11 text-[1.2em]'>
-          <h1 className=' font-poppins font-extrabold text-black text-center text-[2em] '>D-SCHOOL</h1>
+<section className='w-full h-full bg-white py-20'>
+<div className="text-[1.2em]       sm:w-[90%] lg:w-[55em]  m-auto  px-10  lg:px-20 py-20    rounded-[1em]   text-stone-900 font-poppins lg:border-[2px] border-[15px] border-emerald-900">
+<h1 className='font-bold text-center mb-7 lg:text-[3em] text-[2em]'><span className='underline underline-offset-[0.3em]'>D-SCHO</span>OL</h1> 
           <p><span className='font-bold '> D-school </span> is a web-based school management system designed to replace manual labour-intensive activities perfomed in a school </p>
           <h2 className='w-full  pt-4 font-bold '>Why you  need D-SCHOOL</h2>
           <ul className='ml-16 list-disc'>
@@ -47,7 +48,12 @@ export default function Dschool(){
         <li>Asset Registration</li>
         <li>Asset tracker including :- borrowing, depreciation, value appreciation and  information about supplier</li> 
         </ul>
-        <p className='font-bold mt-4 uppercase'>5. Income and Expenditure Tracker</p>
+        <p className='font-bold mt-4'>5. NOTICE BOARD</p>
+        <ul className='ml-16 list-disc'>
+        <li>A Digital information archive where news, announcements and updates  are shared across the school community</li>
+        <li>Sorts information according to urgency and deadline</li> 
+        </ul>
+        <p className='font-bold mt-4 uppercase'>5. Income and Expenditure Tracker</p></div>
             </section></>
     )
 }
