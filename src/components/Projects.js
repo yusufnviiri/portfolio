@@ -56,7 +56,7 @@ function Projects() {
      
     
     </div>
-    <p  className='bg-green-950 p-3 mt-4 text-yellow-500  text-[0.7em] w-2/3 sm:w-full xl:w-2/3  m-auto text-center'><span className='block uppercase font-bold text-yellow-300 text-[1.19em] '>Languanges and Frameworks </span> C#, MySQL and Entity Framework Core and React </p>
+    <p  className='bg-green-950 p-3 mt-4 text-yellow-500  text-[0.7em] w-2/3 sm:w-full xl:w-2/3  m-auto text-center'><span className='block uppercase font-bold text-yellow-300 text-[1.19em] '>Languanges and Frameworks </span> C#, MySQL and Entity Framework Core and Razor pages </p>
      </div>
   
 

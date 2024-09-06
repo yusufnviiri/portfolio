@@ -7,7 +7,7 @@ export default function Dschool(){
 <section className='w-full h-full bg-white py-20'>
 <div className="text-[1.2em]       sm:w-[90%] lg:w-[55em]  m-auto  px-10  lg:px-20 py-20    rounded-[1em]   text-stone-900 font-poppins lg:border-[2px] border-[15px] border-emerald-900">
 <h1 className='font-bold text-center mb-7 lg:text-[3em] text-[2em]'><span className='underline underline-offset-[0.3em]'>D-SCHO</span>OL</h1> 
-          <p><span className='font-bold '> D-school </span> is a web-based school management system designed to replace manual labour-intensive activities perfomed in a school </p>
+          <p><span className='font-bold '> D-school </span> is a web-based school management system designed for traditional and modern educational institutions. This is a game-changer offering  robust and scalable solution to manage everything from student enrollment and staff Onboarding to grades and managinig daily tasks at the institution. </p>
           <h2 className='w-full  pt-4 font-bold '>Why you  need D-SCHOOL</h2>
           <ul className='ml-16 list-disc'>
             <li className=''>Improved Employee/Staff performance since activities are automated</li>
