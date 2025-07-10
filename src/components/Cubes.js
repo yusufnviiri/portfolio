@@ -83,7 +83,7 @@ function Cubes() {
 
 
     function animate() {
-      scene.rotation.y -= 0.0068;
+      scene.rotation.y -= 0.0038;
 
       requestAnimationFrame(animate);
       controls.update();
